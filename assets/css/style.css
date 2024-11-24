@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+section {
+    border: 0.15rem solid black;
+    width: 36.333rem;
+    height: 64.333rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+div:nth-of-type(1) {
+    display: inline-block;
+    margin-top: 25.167rem;
+    margin-bottom: 17rem;
+}
+
+/* img {
+    margin-bottom: 17rem;
+    margin-top: 25.167rem;
+}
+
+a {
+    display: block;
+} */

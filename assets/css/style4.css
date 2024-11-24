@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Poppins_Regular;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins_Bold;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    border: 0.15rem solid black;
+    width: 36.333rem;
+    height: 64.333rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+}
+
+header>img {
+    width: 14.661rem;
+    height: 9rem;
+}
+
+fieldset {
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1.5rem 0 rgb(174, 174, 174);
+    border: none;
+    height: 51.5rem;
+}
+
+fieldset section:nth-of-type(1) {
+    background-color: #F6F6F6;
+}
+
+.inputteil {
+    background-color: #F6F6F6;
+}
+
+.kleinepunkte {
+    margin-top: 2rem;
+    margin-right: 0.42rem;
+    margin-bottom: 0.794rem;
+}
+
+h1 {
+    font-family: Poppins_Bold;
+    font-size: 2.4rem;
+}
+
+
+label {
+    font-family: Poppins_Regular;
+    font-size: 1.6rem;
+    display: block;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+input:not(#rememberme){
+    width: 31.399rem;
+    height: 2.944rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 1.556rem;
+}
+
+.diecheckbox {
+    display: block;
+    text-align: left;
+}
+
+
+#rememberme {
+    margin-left: 2rem;
+    text-align: left;
+    display: inline-block;
+}
+
+fieldset section:nth-of-type(2) div:nth-of-type(3) label {
+    display: inline-block;
+    margin-left: 0.428rem;
+    font-size: 1.33rem;
+    margin-bottom: 3.056rem;
+}
+
+section:last-of-type {
+    background-color: #F6F6F6;
+    height: 25.2rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+fieldset section:last-of-type button {
+    display: block;
+    margin-left: 6.8rem;
+    height: 3.944rem;
+    width: 22.399rem;
+    color: white;
+    background-color: #6C63FF;
+    border: none;
+    border-radius: 1rem;
+    font-family: Poppins_Regular;
+    margin-bottom: 0.722rem;
+
+}
+
+fieldset section:last-of-type div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.1056rem;
+}
+
+fieldset section:last-of-type div::before, fieldset section:last-of-type div::after {
+    content: '';
+    flex: 1;
+    border-top: 0.2rem solid #585858;
+    margin: 0 1rem;
+}
+
+/* !Obere beiden hab ich gegoogelt, geht um die Trennungslinie */
+
+span {
+    font-size: 1.33rem;
+    font-family: Poppins_Regular;
+    color: #808080;
+    margin-bottom: 0.1056rem;
+}
+
+#letzterbutton {
+    margin-top: 0.722rem;
+    margin-bottom: 1.556rem;
+}
+
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+p, .letztesatag {
+    font-family: Poppins_Regular;
+    font-size: 1.33rem;
+} 

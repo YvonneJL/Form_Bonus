@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Poppins_Regular;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins_Bold;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+section {
+    border: 0.15rem solid black;
+    width: 36.333rem;
+    height: 64.333rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+section header {
+    display: inline-block;
+    margin-bottom: 6rem;
+    margin-top: 2.167rem;
+}
+
+section header img {
+    width: 5rem;
+    height: 5rem;
+}
+
+section article:nth-of-type(1) img {
+    width: 32.582rem;
+    height: 20rem;
+}
+
+article:nth-of-type(2) {
+    /* border: 1px solid rgb(174, 174, 174); */
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1.5rem 0 rgb(174, 174, 174);
+    height: 30.2rem;
+    background-color: #F6F6F6;
+}
+
+.kleinepunkte {
+    margin-top: 2rem;
+    margin-right: 0.42rem;
+    margin-bottom: 5.722rem;
+}
+
+section article div h1 {
+    font-size: 1.92rem;
+    font-family: Poppins_Bold;
+    color: #6C63FF;
+    width: 27.55rem;
+    height: 5.5rem;
+    margin-left: 4.235rem;
+    margin-bottom: 2.167rem;
+}
+
+section article div p {
+    font-size: 1.6rem;
+    font-family: Poppins_Regular;
+    width: 31.137rem;
+    height: 4.611rem;
+    margin-left: 2.441rem;
+    margin-bottom: 2.111rem;
+}
